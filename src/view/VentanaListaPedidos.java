@@ -19,6 +19,8 @@ public class VentanaListaPedidos extends JFrame {
         setContentPane(panel1); // panel raíz del .form
         pack();
 
+        setLocationRelativeTo(null); //Centrar ventana
+
         // Configurar modelo de la tabla - se utiliza DefaultTableModel
         modelo = new DefaultTableModel(new Object[]{"ID", "Dirección", "Tipo"}, 0);
         table1.setModel(modelo);
@@ -30,6 +32,7 @@ public class VentanaListaPedidos extends JFrame {
         refrescarTabla(registro);
     }
 
+    //Metodo que refresca los datos de la tabla
     private void refrescarTabla(RegistroPedido registro) {
         modelo.setRowCount(0); // limpia la tabla
         for (Pedido p : registro.getPedidos()) {

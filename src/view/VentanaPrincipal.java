@@ -22,6 +22,8 @@ public class VentanaPrincipal extends JFrame {
         setContentPane(mainPanel); // enlaza el panel del .form
         pack(); // ajusta el tamaño según los componentes
 
+        setLocationRelativeTo(null); //Centrar ventana
+
         // Acciones de los botones
         registrarPedidoButton.addActionListener(new ActionListener() {
             @Override

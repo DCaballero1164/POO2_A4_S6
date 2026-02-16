@@ -18,6 +18,8 @@ public class VentanaRegistroPedido extends JFrame {
         setContentPane(registroPanel); // enlaza el panel del .form
         pack(); // ajusta tamaño según los componentes
 
+        setLocationRelativeTo(null);    //Centrar ventana
+
         guardarButton.addActionListener(e -> {
             String id = textField1.getText();
             String direccion = textField2.getText();
