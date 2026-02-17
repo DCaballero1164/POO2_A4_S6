@@ -80,4 +80,4 @@ Ejecutar el archivo Main.java desde el package ui.
 
 Visualizar los resultados en la consola.
 
-📌 Repositorio GitHub: https://github.com/DCaballero1164/POO2_S2_S5.git 📅 Fecha de entrega: [16/02/2026]
+📌 Repositorio GitHub: https://github.com/DCaballero1164/POO2_A4_S6.git 📅 Fecha de entrega: [16/02/2026]
