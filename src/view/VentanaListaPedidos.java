@@ -14,12 +14,12 @@ public class VentanaListaPedidos extends JFrame {
     private DefaultTableModel modelo;
 
     public VentanaListaPedidos(RegistroPedido registro) {
-        setTitle("Lista de Pedidos");
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        setContentPane(panel1); // panel raíz del .form
-        pack();
+        setTitle("SpeddFast  -  Lista de Pedidos");             //Titulo
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);      //Define la accion al cerrar la ventana
+        setContentPane(panel1);                                 //Panel raíz del .form
+        pack();                                                 //Ajusta el tamaño de la ventana para que se adapte al contenido
 
-        setLocationRelativeTo(null); //Centrar ventana
+        setLocationRelativeTo(null);                            //Centrar ventana
 
         // Configurar modelo de la tabla - se utiliza DefaultTableModel
         modelo = new DefaultTableModel(new Object[]{"ID", "Dirección", "Tipo"}, 0);

@@ -6,8 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RegistroPedido {
+    //Se define la lista
     private List<Pedido> pedidos;
 
+    // Metodo que crea la lista
     public RegistroPedido() {
         pedidos = new ArrayList<>();
     }
